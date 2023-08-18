@@ -43,7 +43,7 @@ namespace NationalPark_Project
             return provinceNamesStr;
         }
 
-        override public string ToString()
+        public override string ToString()
         {
             string output = "";
             output += "\nNational Park's Name: " + this.nationalParkName + "\nNational Park's province names: " + getProvinceNames() +
